@@ -1,0 +1,77 @@
+.content {
+    margin-top: 100px;
+    height: 880px;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 100px;
+    background-color: white;
+}
+.content_head{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    border-color: #c5c4c6;
+    border-width: 1px;
+    border-bottom-style: solid;
+}
+.content_head_bt{
+    font-size: 30px;
+    margin-left: 7%;
+    margin-top: 20px;
+    float: left;
+}
+.content_head_terms{
+    width: 20%;
+    height: 50px;
+    margin-top: 40px;
+    float: left;
+    margin-left: 23%;
+    font-size: 1.3vw;
+}
+.content_head_myterm{
+    width: 48%;
+    float: left;
+    height: 100%;
+    cursor: pointer;
+}
+.myterm_active{
+    color:orangered;
+}
+.content_head_myterm:hover{
+    color:orangered;
+}
+.content_main{
+    width: 80%;
+    margin-left: 10%;
+    height: 780px;
+    overflow: hidden;
+}
+.content_term{
+    width: 100%;
+    height: 100%;
+}
+.content_term form{
+    width: 60%;
+    height: 80%;
+    margin-left: 20%;
+    font-size: 20px;
+    line-height: 40px;
+}
+.content_term form input{
+}
+.yzm{
+    width: 100%;
+    height: 50px;
+    margin-top: 18px;
+}
+.yzm input{
+    width: 60%;
+    float: left;
+    margin-top: 10px;
+}
+.yzm button{
+    width: 35%;
+    margin-top: 10px;
+    float: right;
+}
+

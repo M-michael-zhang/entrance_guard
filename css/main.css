@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Microsoft YaHei UI Light";
+    word-wrap: break-word;
+    word-break: normal;
+
+}
+.all{
+    width:100%;
+    height:auto;
+    background-color: white;
+}
+.logo{
+    width: 20%;
+    height: 100px;
+    position: absolute;
+    top: 60px;
+    left: 3%;
+    z-index: 1;
+    color: white;
+
+}
+.slide_up_content{
+    width: 33%;
+    height: 300px;
+    position: absolute;
+     top: 250px;
+     left: 33%;
+    z-index: 1;
+    font-size: 60px;
+    color: white;
+ }
+.slide_up_content .choose_div{
+    width: 30%;
+    height: 50px;
+    background-color: #175389;
+   float: left;
+    margin-right: 5%;
+    font-size: 15px;
+    line-height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.menu_content{
+    width: 45%;
+    height: 60px;
+    position: absolute;
+    right: 2%;
+    top:80px;
+    z-index: 1;
+}
+.menu_content ul{
+    width: 100%;
+    height: 100%;
+}
+.menu_content ul li{
+    width: 20%;
+    height: 100%;
+    float: left;
+    list-style-type: none;
+    color: white;
+    transition-duration:0.7s ;
+    line-height: 45px;
+    font-size: 1.2vw;
+}
+.menu_content ul li:hover{
+    color: orangered;
+    border-bottom: solid 6px #1d5eb4;
+}
+
+.head{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+}
+.head_content{
+    width: 100%;
+    height: 80%;
+}
+.head .head_content h4{
+    float: left;
+}
+.head .head_call{
+    width: 10%;
+    height: 100% ;
+    margin-left: 1.5%;
+    background-color: #1a508c;
+    float: left;
+    line-height: 40px;
+    font-size: 1.2vw;
+
+}
+.head .head_call p{
+    margin-left: 10% ;
+}
+.head .search{
+    width: 15%;
+    height: 100%;
+    float: right;
+}
+.slide{
+    width: 100%;
+    height: 640px;
+    background-color:black;
+    border-color: #389877;
+    border-width: 2.5px;
+    border-bottom-style: solid;
+}
+
+
+
+.item img{
+    height: 500px;
+    margin-left:auto ;
+    margin-right: auto;
+}
+.foot{
+    width: 100%;
+    height: 400px;
+    background-color: #212121;
+    padding-top: 2%;
+}
+.col-lg-2{
+    height: 100%;
+
+}
+.col-lg-3{
+    height: 100%;
+
+}
+.col-lg-4{
+    height: 100%;
+
+}
+.span_title{
+     color: white;
+     font-size: 1.3vw;
+     font-weight: 900;
+     display: block;
+    line-height: 70px;
+ }
+.span_title1{
+    color: #cbcbcb;
+    font-size: 1.3vw;
+    font-weight: 500;
+}
+.foot_content{
+    width: 90%;
+    height: 100%;
+    margin-left: 5%;
+}
+.foot p{
+    font-size: 1.1vw;
+    color: #838897;
+    word-wrap: break-word;
+    word-break: normal;
+
+}
+.foot_term{
+    width: 85%;
+    height: 90%;
+    margin-left: 10%;
+
+}

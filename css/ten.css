@@ -1,0 +1,84 @@
+.content{
+    width: 80%;
+    margin-left: 10%;
+    height: 750px;
+    background-color: #c5c4c6;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-top: 30px;
+}
+.content_head{
+    width: 75%;
+    height: 100px;
+    background-color: white;
+    border-color: #c5c4c6;
+    border-width: 0.5px;
+    border-bottom-style: solid;
+}
+.content_head_term{
+    width: 6%;
+    background-color: white;
+    float: left;
+    border-radius: 100px;
+    max-height: 90px;
+    border-color: #f2f2f2;
+    border-width: 4px;
+    border-style: solid;
+    font-size: 20px;
+    line-height: 50px;
+}
+.term_active{
+    border-color: #59c4ef;
+}
+.content_main{
+    width: 75%;
+    height: 600px;
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+}
+.main_term{
+    width: 100%;
+    height: 100%;
+}
+.main_term form{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 40px;
+
+}
+.main_term form input{
+    margin-bottom: 15px;
+}
+.content_head span{
+    width: 14%;
+    height:2px;
+    margin-top: 48px;
+    background-color: #888888;
+    float: left;
+}
+.main_bt{
+    font-size: 25px;
+    margin-left: 5% ;
+    margin-top: 40px;
+}
+#sf1{
+    position: absolute;
+    bottom: 40px;
+    right: 25%;
+}
+.btn{
+    position: absolute;
+    bottom: 80px;
+}
+.myp{
+    margin-top: 30px;
+    font-size: 18px;
+    display: block;
+}
+#sf2{
+    position: absolute;
+    top: 260px;
+    right: 8%;
+}

@@ -1,0 +1,140 @@
+.content{
+    width: 100%;
+    height: 1800px;
+    margin-bottom: 100px;
+    background-color: white;
+}
+.content1{
+    width: 100%;
+    background-color: white;
+    margin-bottom: 50px;
+    background-image: url("../img/slide2.png");
+    background-size: cover;
+}
+.content_main_head{
+    width: 100%;
+    height: 80px;
+    border-color: #c5c4c6;
+    border-width: 1px;
+    border-bottom-style: solid;
+}
+.content_main_head_bt{
+    font-weight: 300;
+    color: white;
+    font-size: 3vw;
+    margin-left: 3%;
+    float: left;
+}
+.goin{
+    font-size: 20px;
+    margin-right: 4%;
+    margin-top: 25px;
+    float: right;
+}
+.goin:hover{
+    color: orangered;
+}
+.content1_main{
+    height: calc(100% - 80px);
+    width: 100%;
+}
+.content1_term{
+    width: 17%;
+    margin-left: 6%;
+    float: left;
+    height: 70%;
+    overflow: hidden;
+    position: relative;
+    margin-top: 4%;
+    margin-bottom: 1%;
+    border-color: #c5c4c6;
+    background-color: white;
+    border-width: 1px;
+    border-style: solid;
+}
+.term_hidden{
+    height: 30%;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    background-color: #175389;
+    transition-duration: 0.5s;
+    text-align: center;
+    opacity: 0.8;
+}
+.term_hidden p{
+    margin-top: 1px;
+    font-size: 1vw;
+    color: white;
+}
+.term_hidden span{
+    color:orangered;
+}
+.content1_term:hover .term_hidden{
+    top: 80%;
+}
+.content2{
+    width: 100%;
+    height: 500px;
+    background-color: white;;
+    padding-top: 4%;
+}
+.content2_left{
+    width: 50%;
+    height: 80%;
+    margin-left: 5%;
+    float: left;
+    word-wrap: break-word;
+    word-break: normal;
+}
+.content2_left h1{
+    font-weight: bold;
+}
+.content3 {
+    width: 100%;
+    height: 600px;
+    background-color: white;
+}
+.content3 .title{
+    font-weight:300;
+    font-size: 3vw;
+    margin-left: 3%;
+}
+.content3_term{
+    margin-top: 30px;
+    width: 28%;
+    margin-left: 2%;
+    margin-right: 2%;
+    float: left;
+    height: 550px;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 18px;
+}
+.content3_term .img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: #b5bccf;
+    margin-left: calc(50% - 50px);
+    margin-bottom: 50px;;
+
+}
+.content4{
+    height: 300px;
+    width: 100%;
+    background-color: #175389;
+    font-size: 2vw;
+    font-weight: 600;
+    color: white;
+}
+.content4 .login_index{
+    width: 13%;
+    height: 50px;
+    border-radius: 50px;
+    background-color: white;
+    margin-top: 40px;
+    font-size: 1.8vw;
+    color: #175389;
+    line-height: 50px;
+}

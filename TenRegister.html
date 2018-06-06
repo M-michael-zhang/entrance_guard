@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/ten.css">
+    <style>
+        .carousel-indicators li{
+            width: 20px;
+            height: 20px;
+            border-radius: 0;
+            border-width: 3px;
+        }
+        .carousel-indicators .active{
+            width:20px;
+            height: 20px;
+            background-color: #1d5eb4;
+        }
+
+
+    </style>
+    <script src="js/main.js"></script>
+</head>
+<body>
+<div class="all">
+    <div class="head">
+        <div class="head_content">
+            <h4>&nbsp;&nbsp;&nbsp;&nbsp;Call Us : 00950804988436</h4>
+            <div class="head_call">
+                <p>CONTACT US</p>
+            </div>
+
+            <div class="search">
+                <input class="form-control" type="text" placeholder="USERID" style="width: 70%;float: left">
+                <img src="img/search_300px_1197039_easyicon.net.png"  width="15%" style="margin-left: 3%"/>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="menu_content" align="center">
+        <ul>
+            <a href="index.html"> <li>首页</li></a>
+            <a href="shop.html">  <li>商城</li></a>
+            <a href="TenRegister.html"> <li>物业申请</li></a>
+            <a href="UserRegister.html">  <li>用户注册</li></a>
+            <a href="AboutUs.html">  <li>关于我们</li></a>
+        </ul>
+
+    </div>
+    <div class="logo">
+        <h2 style="font-weight: 900">脸的ID次方</h2>
+        <p>lian&nbsp;&nbsp; de&nbsp;&nbsp; ID&nbsp;&nbsp; ci&nbsp;&nbsp; fang</p>
+
+    </div>
+    <div class="slide_up_content" align="center">
+        <p>您的专属门禁系统</p>
+        <div class="choose_div"style=" margin-left: 17.5%;">物业申请></div>
+        <div class="choose_div"style=" margin-right: 17.5%; ">联系我们></div>
+    </div>
+
+    <div id="myCarousel" class="carousel slide">
+        <ol class="carousel-indicators" style="margin-right: 0px">
+            <li data-target="#myCarousel" data-slide-to="0" class="active" ></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2" ></li>
+        </ol>
+        <!-- 轮播（Carousel）项目 -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="img/slide1.jpg" alt="First slide">
+            </div>
+            <div class="item">
+                <img src="img/slide2.png" alt="Second slide">
+            </div>
+            <div class="item">
+                <img src="img/slide3.png" alt="Third slide" >
+            </div>
+        </div>
+        <!-- 轮播（Carousel）导航 -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev" style="line-height: 600px;font-weight: 900;font-size: 50px;"><
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next" style="line-height: 600px;font-weight: 900;font-size: 50px;">>
+        </a>
+
+    </div>
+    <div class="content"  align="center">
+        <div class="content_head">
+               <div class="content_head_term term_active" id="control_term1" style=" margin-left: 17%;">1</div>
+            <span></span>
+         <div class="content_head_term" id="control_term2">2</div>
+            <span></span>
+             <div class="content_head_term" id="control_term3">3</div>
+            <span></span>
+              <div class="content_head_term" id="control_term4">4</div>
+        </div>
+        <div class="content_main" align="left">
+            <div class="main_term" id="term1" style=" position: relative;">
+                <div class="main_bt">公司信息</div>
+                <form >
+                    <p>物业公司名称 <span style="float: right;color: #34b7ec">需与营业执照上的公司名称相同</span></p>
+                    <input class="form-control" type="text"/>
+                    <p>统一社会信用代码 <span style="float: right;color: #34b7ec">什么是“统一社会信用代码”？</span></p>
+                    <input class="form-control" type="text"/>
+                    <p>小区名称</p>
+                    <input class="form-control" type="text"/>
+                    <p>小区地址 </p>
+                    <input class="form-control" type="text"/>
+                    <p>营业执照正面照片</p>
+                    <p>营业执照彩色照片，小于或等于1MB,照片必须清晰且未经编辑</p>
+                    <input type="file" style="float: left;"/>
+
+                    <button class="btn btn-info" style="margin-top: 20px;">下一项</button>
+                </form>
+
+            </div>
+            <div class="main_term" id="term2" style="position: relative">
+                <div class="main_bt">法人代表信息</div>
+                <form >
+                    <p>法人代表姓名 </p>
+                    <input class="form-control" type="text" placeholder="请填写与法人身份证号对应的法人姓名"/>
+                    <p>法人代表身份证号 </p>
+                    <input class="form-control" type="text"/>
+                    <p>联系人姓名 </p>
+                    <input class="form-control" type="text"/>
+                    <p>联系人号码 </p>
+                    <input class="form-control" type="text"/>
+                    <p>联系人邮箱 </p>
+                    <input class="form-control" type="text"/>
+                    <button class="btn btn-info">下一项</button>
+                </form>
+            </div>
+            <div class="main_term" id="term3" style="position: relative">
+                <div class="main_bt">身份证认证</div>
+                <form>
+                    <div class="myp">接下来<br/>
+                        1.将身份证(身份证号码正对镜头）置于胸前<br/>
+                        2.调整拍照姿势,使您的正脸、身份证正面、验证码、手肘及身体<br/>
+                        上半身全部进入镜头<br/>
+                        3.请确保聚焦到摄像头到您的身份证上。拍摄彩色照片<br/>
+                        4.照片文件大小应在3MB以内，上传该照片
+
+                    </div>
+                    <input type="file" style="float: middle;"/>
+                    <button class="btn btn-info">下一项</button>
+                </form>
+
+            </div>
+            <div class="main_term" id="term4" style="position: relative">
+                <div class="main_bt">支付信息</div>
+                <form style=" margin-top: 10px;">
+                    <p>城市</p>
+                    <input class="form-control" type="text" placeholder="示例：浙江省"/>
+                    <p>银行名称</p>
+                    <input class="form-control" type="text" placeholder="示例：中国建设银行"/>
+                    <p>开户名称</p>
+                    <input class="form-control" type="text" placeholder=""/>
+                    <p>收款人姓名</p>
+                    <input class="form-control" type="text" placeholder="示例：小张"/>
+                    <p>收款人银行账号</p>
+                    <input class="form-control" type="text" placeholder="示例：1234567890"/>
+                    <button class="btn btn-info" style="right: 5%;bottom: 5%">完成</button>
+                </form>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="foot">
+        <div class="foot_content">
+            <div class="col-lg-3" >
+                <div class="foot_term" style="width: 75%;  margin-left: 20%;">
+                    <span class="span_title">ADDRESS</span>
+                    <span class="span_title1">Headquarters</span><br/><p>0926k 4th block building,king Avenue.New York City</p>
+                    <span class="span_title1">Phone</span><p>+8617857172559</p>
+                    <span class="span_title1">Email</span><p>499887880@qq.com</p>
+                    <span class="span_title1">Fax</span><p>+1189762334</p>
+                </div>
+
+            </div>
+            <div class="col-lg-2">
+                <div class="foot_term">
+                    <span class="span_title">LINKS</span>
+                    <p> > navigation </p>
+                    <p> > Documentation </p>
+                    <p> > Business </p>
+                    <p> > Technical Support </p>
+                    <p> > 24/7 Service </p>
+                    <p> > Feedback </p>
+
+                </div>
+
+            </div>
+            <div class="col-lg-3">
+                <div class="foot_term">
+                    <span class="span_title">RECENT POSTS</span>
+                    <P>lorem ipsum dolor sit amet 31st march,2018</P>
+                    <p>_________________________________</p>
+                    <P>lorem ipsum dolor sit amet 31st march,2018</P>
+                    <p>_________________________________</p>
+                </div>
+
+            </div>
+            <div class="col-lg-4">
+                <div class="foot_term">
+                    <span class="span_title">NEWSLETTER</span>
+                    <br/>
+                    <br/>
+                    <p>asdnkjai sodsjnf jkfsd csakjn dlkdsa dasms sacsad sadsad asdsf </p>
+                    <input class="form-control" type="text" style="background-color: #212121; border-color: #838897"/>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+</div>
+</body>
+<script>
+    $(document).ready(function () {
+        var height= $(".content_head_term").width();
+        var mt=(100-height)/2;
+        $(".content_head_term").height(height);
+        $(".content_head_term").css("margin-top",mt);
+        $(".content_head_term").click(function () {
+            var id = $(this).attr('id');
+            var scroll_height = $(window).scrollTop();
+            switch(id){
+                case "control_term1": window.location.hash="#term1"; break;
+                case "control_term2": window.location.hash="#term2";break;
+                case "control_term3": window.location.hash="#term3";break;
+                case "control_term4": window.location.hash="#term4";break;
+            }
+
+            $(window).scrollTop(scroll_height);
+            $(".content_head_term").removeClass("term_active");
+            $(this).addClass("term_active");
+        })
+
+    })
+    
+</script>
+</html>

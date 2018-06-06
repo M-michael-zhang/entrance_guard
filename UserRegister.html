@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/user.css">
+    <style>
+        .carousel-indicators li{
+            width: 20px;
+            height: 20px;
+            border-radius: 0;
+            border-width: 3px;
+        }
+        .carousel-indicators .active{
+            width:20px;
+            height: 20px;
+            background-color: #1d5eb4;
+        }
+
+
+    </style>
+    <script src="js/main.js"></script>
+</head>
+<body>
+<div class="all">
+    <div class="head">
+        <div class="head_content">
+            <h4>&nbsp;&nbsp;&nbsp;&nbsp;Call Us : 00950804988436</h4>
+            <div class="head_call">
+                <p>CONTACT US</p>
+            </div>
+
+            <div class="search">
+                <input class="form-control" type="text" placeholder="USERID" style="width: 70%;float: left">
+                <img src="img/search_300px_1197039_easyicon.net.png"  width="15%" style="margin-left: 3%"/>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="menu_content" align="center">
+        <ul>
+            <a href="index.html"> <li>首页</li></a>
+            <a href="shop.html">  <li>商城</li></a>
+            <a href="TenRegister.html"> <li>物业申请</li></a>
+            <a href="UserRegister.html">  <li>用户注册</li></a>
+            <a href="AboutUs.html">  <li>关于我们</li></a>
+        </ul>
+
+    </div>
+    <div class="logo">
+        <h2 style="font-weight: 900">脸的ID次方</h2>
+        <p>lian&nbsp;&nbsp; de&nbsp;&nbsp; ID&nbsp;&nbsp; ci&nbsp;&nbsp; fang</p>
+
+    </div>
+    <div class="slide_up_content" align="center">
+        <p>您的专属门禁系统</p>
+        <div class="choose_div"style=" margin-left: 17.5%;">物业申请></div>
+        <div class="choose_div"style=" margin-right: 17.5%; ">联系我们></div>
+    </div>
+
+    <div id="myCarousel" class="carousel slide">
+        <ol class="carousel-indicators" style="margin-right: 0px">
+            <li data-target="#myCarousel" data-slide-to="0" class="active" ></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2" ></li>
+        </ol>
+        <!-- 轮播（Carousel）项目 -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="img/slide1.jpg" alt="First slide">
+            </div>
+            <div class="item">
+                <img src="img/slide2.png" alt="Second slide">
+            </div>
+            <div class="item">
+                <img src="img/slide3.png" alt="Third slide" >
+            </div>
+        </div>
+        <!-- 轮播（Carousel）导航 -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev" style="line-height: 600px;font-weight: 900;font-size: 50px;"><
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next" style="line-height: 600px;font-weight: 900;font-size: 50px;">>
+        </a>
+
+    </div>
+    <div class="content">
+        <div class="content_head">
+            <div class="content_head_bt">
+                用户注册
+            </div>
+
+            <div class="content_head_terms">
+                <div class="content_head_myterm myterm_active" id="myterm1" align="right" >我是住户&nbsp;&nbsp;</div>|<div class="content_head_myterm" id="myterm2" style="float: right">&nbsp;&nbsp;我是访客</div>
+            </div>
+        </div>
+        <div class="content_main">
+            <div class="content_term" id="term1">
+                <form>
+                    <p>姓名</p>
+                    <input class="form-control" type="text" placeholder="示例：张三"/>
+                    <p>联系号码</p>
+                    <input class="form-control" type="text" placeholder="示例：13888888888"/>
+                    <div class="yzm">
+                        <input class="form-control" type="text" placeholder="请输入手机验证码"/>
+                        <button class="btn btn-info">发送验证码</button>
+                    </div>
+                    <p>小区名称</p>
+                    <input class="form-control" type="text" placeholder="示例：绿野星城"/>
+                    <p>住户地址</p>
+                    <input class="form-control" type="text" placeholder="具体到门牌号"/>
+                    <p>身份证号</p>
+                    <input class="form-control" type="text"/>
+                    <p>照片认证</p>
+                    <input type="file" style="float: left;"/><br/>
+                    <button class="btn btn-info" style="margin-top: 25px;">提交注册</button>
+                </form>
+
+            </div>
+            <div class="content_term" id="term2">
+                <form>
+                    <p>姓名</p>
+                    <input class="form-control" type="text" placeholder="示例：张三"/>
+                    <p>联系号码</p>
+                    <input class="form-control" type="text" placeholder="示例：13888888888"/>
+                    <div class="yzm">
+                        <input class="form-control" type="text" placeholder="请输入手机验证码"/>
+                        <button class="btn btn-info">发送验证码</button>
+                    </div>
+                    <p>访问住户地址</p>
+                    <input class="form-control" type="text" placeholder="具体到门牌号"/>
+                    <label>与户主关系</label>
+                    <select class="form-control">
+                        <option>朋友<option>
+                        <option>家属</option>
+                        <option>同事</option>
+                        <option>其他</option>
+                    </select>
+                    <p>访问理由</p>
+                    <input class="form-control" type="text"/>
+                    <p>身份证号</p>
+                    <input class="form-control" type="text"/>
+                    <p>照片认证</p>
+                    <input type="file" style="float: left;"/><br/>
+                    <button class="btn btn-info" style="margin-top: 25px;">提交申请</button>
+                </form>
+
+
+            </div>
+        </div>
+    </div>
+    <div class="foot">
+        <div class="foot_content">
+            <div class="col-lg-3" >
+                <div class="foot_term" style="width: 75%;  margin-left: 20%;">
+                    <span class="span_title">ADDRESS</span>
+                    <span class="span_title1">Headquarters</span><br/><p>0926k 4th block building,king Avenue.New York City</p>
+                    <span class="span_title1">Phone</span><p>+8617857172559</p>
+                    <span class="span_title1">Email</span><p>499887880@qq.com</p>
+                    <span class="span_title1">Fax</span><p>+1189762334</p>
+                </div>
+
+            </div>
+            <div class="col-lg-2">
+                <div class="foot_term">
+                    <span class="span_title">LINKS</span>
+                    <p> > navigation </p>
+                    <p> > Documentation </p>
+                    <p> > Business </p>
+                    <p> > Technical Support </p>
+                    <p> > 24/7 Service </p>
+                    <p> > Feedback </p>
+
+                </div>
+
+            </div>
+            <div class="col-lg-3">
+                <div class="foot_term">
+                    <span class="span_title">RECENT POSTS</span>
+                    <P>lorem ipsum dolor sit amet 31st march,2018</P>
+                    <p>_________________________________</p>
+                    <P>lorem ipsum dolor sit amet 31st march,2018</P>
+                    <p>_________________________________</p>
+                </div>
+
+            </div>
+            <div class="col-lg-4">
+                <div class="foot_term">
+                    <span class="span_title">NEWSLETTER</span>
+                    <br/>
+                    <br/>
+                    <p>asdnkjai sodsjnf jkfsd csakjn dlkdsa dasms sacsad sadsad asdsf </p>
+                    <input class="form-control" type="text" style="background-color: #212121; border-color: #838897"/>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+<script>
+    $(document).ready(function () {
+        $(".content_head_myterm ").click(function () {
+            var id = $(this).attr('id');
+            var scroll_height = $(window).scrollTop();
+            switch (id) {
+                case "myterm1":
+                    window.location.hash = "#term1";
+                    break;
+                case "myterm2":
+                    window.location.hash = "#term2";
+                    break;
+            }
+            $(window).scrollTop(scroll_height);
+            $(".content_head_myterm").removeClass("myterm_active");
+            $(this).addClass("myterm_active");
+        });
+    })
+
+</script>
+</html>
