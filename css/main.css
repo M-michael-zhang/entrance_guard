@@ -165,3 +165,11 @@
     margin-left: 10%;
 
 }
+.foot_term p:hover{
+    color: #f5f5f5;
+    cursor: pointer;
+}
+.foot_term .form-control{
+    color: white;
+
+}

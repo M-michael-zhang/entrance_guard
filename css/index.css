@@ -21,15 +21,17 @@
 .content_main_head_bt{
     font-weight: 300;
     color: white;
-    font-size: 3vw;
+    font-size: 2.3vw;
     margin-left: 3%;
     float: left;
+    margin-top: 25px;
 }
 .goin{
     font-size: 20px;
     margin-right: 4%;
     margin-top: 25px;
     float: right;
+    color: white;
 }
 .goin:hover{
     color: orangered;
@@ -42,7 +44,7 @@
     width: 17%;
     margin-left: 6%;
     float: left;
-    height: 70%;
+    height: 60%;
     overflow: hidden;
     position: relative;
     margin-top: 4%;
@@ -51,13 +53,14 @@
     background-color: white;
     border-width: 1px;
     border-style: solid;
+
 }
 .term_hidden{
     height: 30%;
     width: 100%;
     position: absolute;
     top: 100%;
-    background-color: #175389;
+    background-color: #999999;
     transition-duration: 0.5s;
     text-align: center;
     opacity: 0.8;
@@ -68,7 +71,13 @@
     color: white;
 }
 .term_hidden span{
-    color:orangered;
+
+}
+.content1_term:hover{
+    filter: drop-shadow(0px 0px 5px #ffffff);
+    transform: scale(0.98, 0.98);
+    transition: 0.5s transform;
+
 }
 .content1_term:hover .term_hidden{
     top: 80%;
@@ -96,8 +105,8 @@
     background-color: white;
 }
 .content3 .title{
-    font-weight:300;
-    font-size: 3vw;
+
+    font-size: 2.5vw;
     margin-left: 3%;
 }
 .content3_term{
